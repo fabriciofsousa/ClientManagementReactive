@@ -1,12 +1,9 @@
-package br.com.ada.reactivejavasw.dto;
+package br.com.ada.reactivejavasalarymanagement.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.bson.types.ObjectId;
-
-import java.math.BigDecimal;
 
 @Getter
 @Setter

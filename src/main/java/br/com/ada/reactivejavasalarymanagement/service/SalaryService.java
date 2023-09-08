@@ -1,10 +1,10 @@
-package br.com.ada.reactivejavasw.service;
+package br.com.ada.reactivejavasalarymanagement.service;
 
-import br.com.ada.reactivejavasw.converter.SalaryConverter;
-import br.com.ada.reactivejavasw.dto.SalaryDTO;
-import br.com.ada.reactivejavasw.dto.ResponseDTO;
-import br.com.ada.reactivejavasw.model.Salary;
-import br.com.ada.reactivejavasw.repository.SalaryRepository;
+import br.com.ada.reactivejavasalarymanagement.converter.SalaryConverter;
+import br.com.ada.reactivejavasalarymanagement.dto.SalaryDTO;
+import br.com.ada.reactivejavasalarymanagement.dto.ResponseDTO;
+import br.com.ada.reactivejavasalarymanagement.model.Salary;
+import br.com.ada.reactivejavasalarymanagement.repository.SalaryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;

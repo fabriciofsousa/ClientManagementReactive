@@ -1,4 +1,4 @@
-package br.com.ada.reactivejavasw;
+package br.com.ada.reactivejavasalarymanagement;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;

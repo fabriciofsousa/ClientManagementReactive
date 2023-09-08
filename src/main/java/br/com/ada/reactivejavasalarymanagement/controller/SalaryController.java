@@ -1,8 +1,8 @@
-package br.com.ada.reactivejavasw.controller;
+package br.com.ada.reactivejavasalarymanagement.controller;
 
-import br.com.ada.reactivejavasw.dto.SalaryDTO;
-import br.com.ada.reactivejavasw.dto.ResponseDTO;
-import br.com.ada.reactivejavasw.service.SalaryService;
+import br.com.ada.reactivejavasalarymanagement.dto.SalaryDTO;
+import br.com.ada.reactivejavasalarymanagement.dto.ResponseDTO;
+import br.com.ada.reactivejavasalarymanagement.service.SalaryService;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;

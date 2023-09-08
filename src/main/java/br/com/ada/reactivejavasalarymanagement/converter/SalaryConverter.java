@@ -1,7 +1,7 @@
-package br.com.ada.reactivejavasw.converter;
+package br.com.ada.reactivejavasalarymanagement.converter;
 
-import br.com.ada.reactivejavasw.dto.SalaryDTO;
-import br.com.ada.reactivejavasw.model.Salary;
+import br.com.ada.reactivejavasalarymanagement.dto.SalaryDTO;
+import br.com.ada.reactivejavasalarymanagement.model.Salary;
 import org.springframework.stereotype.Component;
 
 @Component
