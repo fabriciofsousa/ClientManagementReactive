@@ -1,4 +1,4 @@
-package br.com.ada.reactivejavasalarymanagement.dto;
+package br.com.ada.reactivejavaclientmanagement.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

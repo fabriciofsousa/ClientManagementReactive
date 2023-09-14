@@ -1,10 +1,10 @@
-package br.com.ada.reactivejavasalarymanagement;
+package br.com.ada.reactivejavaclientmanagement;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SalaryManagementReactiveTests {
+class ClientManagementReactiveTests {
 
 	@Test
 	void contextLoads() {
