@@ -28,4 +28,11 @@ public class Client {
         this.age = age;
         this.email = email;
     }
+
+    public Client(String id, Integer age, String name, String email) {
+        this.id=id;
+        this.name = name;
+        this.age = age;
+        this.email = email;
+    }
 }

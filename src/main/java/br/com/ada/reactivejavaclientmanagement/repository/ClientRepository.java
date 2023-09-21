@@ -1,14 +1,16 @@
 package br.com.ada.reactivejavaclientmanagement.repository;
 
 import br.com.ada.reactivejavaclientmanagement.model.Client;
-import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import reactor.core.publisher.Mono;
 
+import java.util.Optional;
+
 @Repository
-public interface ClientRepository extends ReactiveMongoRepository<Client, String> {
+public interface ClientRepository extends JpaRepository<Client, String> {
 
-    Mono<Client> findById(String id);
+    Optional<Client> findById(String id);
 
-    Mono<Void> deleteById(String id);
+    void deleteById(String id);
 }
